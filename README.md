@@ -14,3 +14,6 @@ I approached the work one step at a time, using the suggested language in chapte
 I was able to successfully create and test a new Rails app using a spec file by installing the gems in this "minispec" app into that Rails app and adding a spec_helper file. I have copied that file into this repo in the "features" folder, and rearranged other files to match the assignment description. I reran "rake test" after any file moves to ensure that tests still pass (and they do).
 
 I had help setting up my development environment from Brook and Kevin, the instructors, and from fellow class members in figuring out how to program the test to navigate to a localhost page. The Rails test I completed independently.
+
+--I merged too early! Adding to README so I can initiate a pull request.
+
