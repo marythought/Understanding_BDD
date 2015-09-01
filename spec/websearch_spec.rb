@@ -13,10 +13,10 @@ describe "my webpage" do
     page.has_content?('mary dickson diaz')
   end
 
-  it "does not have missing content" do
-    visit('http://www.marydickson.com')
-    expect(page).to_not have_content('go away i hate you')
-  end
+  # it "does not have missing content" do
+  #   visit('http://www.marydickson.com')
+  #   expect(page).to_not have_content('go away i hate you')
+  # end
 
   it "can click a link" do
     visit('http://www.marydickson.com')
