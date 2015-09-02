@@ -4,7 +4,8 @@ class FeatureSpec < MiniTest::Spec
   require "capybara/poltergeist"
   include Capybara::DSL
   Capybara.register_driver :poltergeist do |config|
-    Capybara::Poltergeist::Driver.new(config, {js_errors: false})
+    Capybara::Poltergeist::Driver.new(config, {js_errors: false,
+                                               timeout: 1000})
   end
   Capybara.default_driver = :poltergeist
   register_spec_type(/page$/, self)
